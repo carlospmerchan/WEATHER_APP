@@ -5,7 +5,7 @@ window.onload = () => {
     let long = position.coords.longitude;
     let alt = position.coords.altitude;
 
-    alert(`Estas en ${lat} latitud, ${long} longitud`);
+    //alert(`Estas en ${lat} latitud, ${long} longitud`);
   }
   let error = () =>{
     alert ('error!')
@@ -17,4 +17,3 @@ window.onload = () => {
   };
   
 }
-

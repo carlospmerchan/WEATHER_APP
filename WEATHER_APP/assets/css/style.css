@@ -360,9 +360,83 @@ p {
   margin: 0;
 }
 
-.caja {
-  background-color: red;
-  width: 50px;
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .header .metoIcon {
+  height: 80px;
+  width: 100%;
+}
+
+body .hztHour {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 15px;
+}
+
+body .hztHour .cardHour {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+body .hztHour .cardHour .hourIcon {
   height: 50px;
+  width: 100%;
+}
+
+body .vertical {
+  overflow: auto;
+}
+
+body .vertical .cardHour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+  text-decoration: none;
+}
+
+body .vertical .cardHour .hourIcon {
+  height: 50px;
+  width: 100%;
+}
+
+body #nav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 15px;
+}
+
+body #nav a img {
+  max-width: 15%;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

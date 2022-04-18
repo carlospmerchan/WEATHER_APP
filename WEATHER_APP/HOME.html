@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css
+    ">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
+
+    <!-- https://www.metaweather.com/api/ -->
+    <script src="/api/location/search/?query=(query)"></script>
+    <script src="/api/location/search/?lattlong=(latt),(long)"></script>
+
+    <!-- https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/api/?disjunctive.cou_name_en&sort=name/ -->
+    <script src="geonames-all-cities-with-a-population-1000"></script>
+
+    <script src="app/main.js"></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <h4>Madrid</h4>
+        <img class="metoIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico">
+        <h1>24ºC</h1>
+    </div>
+
+    <!-- CARRUSEL HORIZONTAL -->
+    <div class="hztHour">
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+
+        </div>
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+
+        </div>
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+        
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+        
+        <div class="cardHour">
+        <h5>14:00</h5>
+        <h5>24ºC</h5>
+        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+        </div>
+        
+    </div>
+
+    <!-- CARRUSEL VERTICAL -->
+    <div class="vertical">
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+
+        <div class="cardHour">
+            <h5>Lunes</h5>
+            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h5>24ºC</h5>
+            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+        </div>
+        
+    </div>
+    <!-- NAV -->
+    <div id="nav">
+        <div class="navItem">
+            <a href="HOME.html">HOME</a>
+            <img class="navIcon" src="assets/images/HOME_ICON.svg" alt="icono home">
+        </div>
+
+        <div class="navItem">
+            <a href="SEARCH.html">SEARCH</a>
+            <img class="navIcon" src="assets/images/SEARCH_ICON.svg" alt="icono buscador">
+        </div>
+
+        <div class="navItem">
+            <a href="SEARCH.html">LOCATION</a>
+            <img class="navIcon" src="assets/images/LOCATIONS_ICON.svg" alt="icono localizaciones">
+        </div>
+        
+        
+    </div>
+</body>
+</html>
