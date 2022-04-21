@@ -374,9 +374,23 @@ body .header {
   text-align: center;
 }
 
-body .header .metoIcon {
-  height: 80px;
-  width: 100%;
+body .header .yourCityIcon {
+  width: 20%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+body .header .yourCityName {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+body .header .yourCityTemp {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 body .hztHour {
@@ -399,6 +413,17 @@ body .hztHour .cardHour .hourIcon {
 
 body .vertical {
   overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 body .vertical .cardHour {
@@ -413,9 +438,15 @@ body .vertical .cardHour {
   text-decoration: none;
 }
 
-body .vertical .cardHour .hourIcon {
+body .vertical .cardHour .onewIcon {
   height: 50px;
-  width: 100%;
+  width: 10%;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body #nav {
@@ -435,8 +466,16 @@ body #nav {
   padding: 15px;
 }
 
-body #nav a img {
-  max-width: 15%;
+body #nav .navBtn {
+  background-color: black;
+  padding: 0px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+body #nav .navBtn .navIcon {
+  max-width: 100%;
   display: block;
 }
 /*# sourceMappingURL=style.css.map */

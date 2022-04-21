@@ -11,11 +11,11 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
 
     <!-- https://www.metaweather.com/api/ -->
-    <script src="/api/location/search/?query=(query)"></script>
-    <script src="/api/location/search/?lattlong=(latt),(long)"></script>
+    <!--<script src="/api/location/search/?query=(query)"></script>
+    <script src="/api/location/search/?lattlong=(latt),(long)"></script>-->
 
     <!-- https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/api/?disjunctive.cou_name_en&sort=name/ -->
-    <script src="geonames-all-cities-with-a-population-1000"></script>
+    <!--<script src="geonames-all-cities-with-a-population-1000"></script>-->
 
     <script src="app/main.js"></script>
 
@@ -23,117 +23,85 @@
 <body>
     <!-- HEADER -->
     <div class="header">
-        <h4>Madrid</h4>
-        <img class="metoIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico">
-        <h1>24ºC</h1>
+        <h1 class="yourCityName"></h1>
+        <h5 class="yourCountry"></h5>
+        <h3 class="yourCityIcon"></h3>
+        <h2 class="yourCityTemp"></h2>
     </div>
 
     <!-- CARRUSEL HORIZONTAL -->
     <div class="hztHour">
-        <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
 
-        </div>
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-
-        </div>
-        <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Cielo</h6>
+            <h5 class="cielo"></h5>
         </div>
 
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Temp. máxima</h6>
+            <h5 class="maxTemp"></h5>
         </div>
 
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Temp. mínima</h6>
+            <h5 class="minTemp"></h5>
         </div>
 
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-        </div>
-        
-        <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Vel. viento</h6>
+            <h5 class="windSpeed"></h5>
         </div>
 
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Precipitaciones</h6>
+            <h5 class="precipitaciones"></h5>
         </div>
-        
+
         <div class="cardHour">
-        <h5>14:00</h5>
-        <h5>24ºC</h5>
-        <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
+            <h6>Humedad</h6>
+            <h5 class="humedad"></h5>
         </div>
         
     </div>
 
     <!-- CARRUSEL VERTICAL -->
     <div class="vertical">
-        <div class="cardHour">
+        <!-- <div class="cardHour">
             <h5>Lunes</h5>
             <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
             <h5>24ºC</h5>
             <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
-        </div>
+        </div> -->
 
         <div class="cardHour">
-            <h5>Lunes</h5>
-            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-            <h5>24ºC</h5>
-            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
-        </div>
-
-        <div class="cardHour">
-            <h5>Lunes</h5>
-            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-            <h5>24ºC</h5>
-            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
-        </div>
-
-        <div class="cardHour">
-            <h5>Lunes</h5>
-            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-            <h5>24ºC</h5>
-            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
-        </div>
-
-        <div class="cardHour">
-            <h5>Lunes</h5>
-            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-            <h5>24ºC</h5>
-            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
-        </div>
-
-        <div class="cardHour">
-            <h5>Lunes</h5>
-            <img class="hourIcon" src="assets/images/DAY_RAIN_ICON.svg" alt="icono atmosferico detalle">
-            <h5>24ºC</h5>
-            <img class="hourIcon" src="assets/images/SHARE_ICON.svg" alt="icono compartir">
+            <h5 class="fechaOneDay"></h5>
+            <h6 class="onewIcon"></h6>
+            <h5 class="oneDayTemp"></h5>
         </div>
         
     </div>
     <!-- NAV -->
     <div id="nav">
-        <div class="navItem">
+
+        <form action="/HOME.html">
+            <button class="navBtn">
+                <img class="navIcon" src="assets/images/HOME_ICON.svg" alt="icono home">
+            </button>
+        </form>
+
+        <form action="/SEARCH.html">
+            <button class="navBtn">
+                <img class="navIcon" src="assets/images/SEARCH_ICON.svg" alt="icono buscador">
+            </button>
+        </form>
+
+        <form action="/SEARCH.html">
+            <button class="navBtn">
+                <img class="navIcon" src="assets/images/LOCATIONS_ICON.svg" alt="icono localizaciones">
+            </button>
+        </form>
+
+        <!-- <div class="navItem">
             <a href="HOME.html">HOME</a>
             <img class="navIcon" src="assets/images/HOME_ICON.svg" alt="icono home">
         </div>
@@ -144,11 +112,9 @@
         </div>
 
         <div class="navItem">
-            <a href="SEARCH.html">LOCATION</a>
+            <a href="LOCATION.html">LOCATION</a>
             <img class="navIcon" src="assets/images/LOCATIONS_ICON.svg" alt="icono localizaciones">
-        </div>
-        
-        
+        </div> -->
     </div>
 </body>
 </html>
