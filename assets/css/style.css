@@ -436,48 +436,56 @@ body .vertical .cardDay {
           flex-direction: row;
   padding: 30px;
   text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .vertical .cardDay h5 {
+  padding-right: 1rem;
+  margin-bottom: 0rem;
 }
 
 body .vertical .cardDay .onewIcon {
-  width: 10%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 body .vertical .cardDay .twowIcon {
-  width: 10%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 body .vertical .cardDay .threewIcon {
-  width: 10%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 body .vertical .cardDay .fourwIcon {
-  width: 10%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 body .vertical .cardDay .fivewIcon {
-  width: 10%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
