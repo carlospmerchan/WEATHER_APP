@@ -426,7 +426,7 @@ body .vertical {
   text-align: center;
 }
 
-body .vertical .cardHour {
+body .vertical .cardDay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,10 +438,44 @@ body .vertical .cardHour {
   text-decoration: none;
 }
 
-body .vertical .cardHour .onewIcon {
-  height: 50px;
+body .vertical .cardDay .onewIcon {
   width: 10%;
-  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .vertical .cardDay .twowIcon {
+  width: 10%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .vertical .cardDay .threewIcon {
+  width: 10%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .vertical .cardDay .fourwIcon {
+  width: 10%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .vertical .cardDay .fivewIcon {
+  width: 10%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   -ms-flex-item-align: center;
